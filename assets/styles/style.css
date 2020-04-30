@@ -1,0 +1,87 @@
+body {
+  background-color: black;
+}
+
+#backround {
+  margin-left: 180px;
+  margin-right: 40px;
+  margin-top: 80px;
+}
+
+p {
+  color: white;
+  font-size: 40px;
+}
+
+#traveltext {
+  position: fixed;
+  left:0px;
+  top:0px;
+  height: 80px;
+  padding: 15px;
+  border-right: 2px solid white;
+  border-left: 2px solid white;
+  border-bottom: 2px solid white;
+  margin-left: 80px;
+  float: left;
+  overflow: hidden;
+  text-align: center;
+}
+
+.India {
+  position: absolute;
+  right: 405px;
+  top: 420px;
+  width: 40px;
+  transition: 0.5s;
+}
+
+.India:hover {
+  position: absolute;
+  right: 405px;
+  top: 420px;
+  transform: scale(1.5);
+}
+
+
+.Peru {
+  position: absolute;
+  right: 900px;
+  top: 520px;
+  transition: 0.5s;
+}
+
+.Peru:hover {
+  position: absolute;
+  right: 900px;
+  top: 520px;
+  transform: scale(1.5);
+}
+
+.Cabo {
+  position: absolute;
+  right: 1025px;
+  top: 390px;
+  transition: 0.5s;
+}
+
+.Cabo:hover {
+  position: absolute;
+  right: 1025px;
+  top: 390px;
+  transform: scale(1.5);
+}
+
+.Rome {
+  position: absolute;
+  right: 610px;
+  top: 330px;
+  transition: 0.5s;
+}
+
+.Rome:hover {
+  position: absolute;
+  right: 610px;
+  top: 330px;
+  transform: scale(1.5);
+}
